@@ -34,6 +34,16 @@
     a.addEventListener('click',function(){ track('Contact'); });
   });
 
+  // Provas sociais (só com prints reais listados em config.js)
+  var P=S.provas||[], box=document.getElementById('proofs'), secP=document.getElementById('provas');
+  if(P.length && box && secP){
+    P.forEach(function(src){
+      var i=new Image(); i.src=src; i.loading='lazy'; i.alt='Mensagem de um cliente no WhatsApp';
+      var f=document.createElement('figure'); f.appendChild(i); box.appendChild(f);
+    });
+    secP.hidden=false;
+  }
+
   // Destacar a barra de navegação ao rolar
   var nav=document.querySelector('.nav');
   var onScroll=function(){ nav.classList.toggle('stuck',window.scrollY>8); };

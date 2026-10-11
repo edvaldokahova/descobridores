@@ -1,4 +1,4 @@
-# Pequenos Descobridores — Landing page (Bilonai Group)
+# Pequenos Descobridores — Landing page (A Bilonai Group)
 
 Site estático (HTML/CSS/JS). Não precisa de build.
 
@@ -13,3 +13,6 @@ Site estático (HTML/CSS/JS). Não precisa de build.
 
 ## Favicon
 Coloca o teu `favicon.png` na raiz (ao lado do `index.html`), com o nome exacto `favicon.png` (ideal 512×512 px).
+
+## Provas sociais
+Coloca prints REAIS (com autorização do cliente) em `img/provas/` e lista-os em `config.js` → `provas: ['img/provas/cliente1.jpg', ...]`. Com a lista vazia, a secção fica escondida.

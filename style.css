@@ -185,3 +185,9 @@ footer a{color:#FFC83D;text-decoration:none}
 .legalpage p{color:#3a4361;font-size:15.5px}
 .back{color:var(--or2);text-decoration:none;font-weight:600;font-size:14px}
 .legal .links a{color:#FFC83D;text-decoration:none}
+
+/* provas sociais */
+.proofs{display:flex;gap:18px;overflow-x:auto;margin-top:32px;padding:6px 4px 20px;scroll-snap-type:x mandatory}
+.proofs figure{flex:0 0 min(300px,78vw);scroll-snap-align:start}
+.proofs img{width:100%;border-radius:16px;box-shadow:0 12px 30px rgba(27,45,85,.18);border:1px solid #e8e2d6}
+@media(min-width:1000px){.proofs{justify-content:center}}
