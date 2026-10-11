@@ -8,5 +8,5 @@ window.SITE = {
   // Provas sociais: coloca os prints REAIS (com autorização do cliente) em img/provas/
   // e lista os nomes aqui. Enquanto a lista estiver vazia, a secção fica escondida.
   // Exemplo: provas: ['img/provas/cliente1.jpg', 'img/provas/cliente2.jpg']
-  provas: []
+  provas: ['img/provas/cliente1.jpg', 'img/provas/cliente2.jpg']
 };
